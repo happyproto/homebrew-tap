@@ -1,25 +1,25 @@
 class HpyAlpha < Formula
   desc "The HappyProto command line"
   homepage "https://happyproto.at"
-  version "1.0.0-alpha.26"
+  version "1.0.0-alpha.27"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.26/hpy-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "a836f5b84186f7c2e1bf7cb608a95e66eca42e649b5f15566a61aaf5cd78a6cc"
+      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.27/hpy-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "f8ee743b56c390d38180d5464c4f30384b4c8b9e1a07fbe98f015ec3c12a5e16"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.26/hpy-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "30a30b3f0a5d77bca8fda1e73358e145817e61813df01e57e272f404110fcb34"
+      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.27/hpy-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "f912cb2331a30b93848438edb73a42d935cd96bd6508087123718c36fde422b7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.26/hpy-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "78efebe6ccd1d23897b30b415b2b6a12dfba18dfa9be2924cfe13b8df0116999"
+      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.27/hpy-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "cc2b21d5e6af5e862d44125718f6d67c0f29b52e330a9692a7d554275c41c5be"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.26/hpy-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "9220dac1014756e9b800e062c0687716327ffc4e1a0186ed4f4717a663e6c294"
+      url "https://github.com/happyproto/cli/releases/download/v1.0.0-alpha.27/hpy-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "c07fa7bcadaf4c4b86a7b496777c95211d153b1ec9c1123246199409fbfce76e"
     end
   end
   license "MIT"
